@@ -26,4 +26,23 @@ public class Circle {
 	   public double getArea() {
 	      return radius*radius*Math.PI;
 	   }
+	   
+	// Setter for instance variable radius
+	   public void setRadius(double newRadius) {
+	      this.radius = newRadius;
+	   }
+	   
+	// Getter for instance variable color
+	   public String getColor() { 
+		   return color;
+	   }
+	    
+	   // Setter for instance variable color
+	   public void setColor(String newColor) { 
+		   this.color = newColor;
+	   }
+	   
+	   public String toString() {
+		   return "Circle[radius=" + radius + " color=" + color + "]";
+		}
 }
